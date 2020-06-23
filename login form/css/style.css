@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container .loginForm {
+  border: 1px solid #ddd;
+  margin: 50px 0;
+  box-shadow: 5px 10px 10px 10px #ddd;
+}
+
+/*Cover image */
+
+.col-md-7 {
+  background-image: url(../images/bg-2.jpg);
+  background-size: cover;
+  background-position: right;
+
+}
+
+
+/*--------------- Login Section---------------------- */
+
+#login-form {
+  margin: 0 20px 20px 40px;
+}
+
+/* Login title */
+#login-form .login-title {
+  padding-top: 16px;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* logo padding */
+.branding .img-fluid {
+  padding: 0;
+}
+
+.branding span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* Sign in title */
+#login-form .sign-in {
+  margin: 20px 2px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-bottom: 3px solid #797979;
+  padding-bottom: 5px;
+  border-spacing: 50px;
+}
+
+
+#login-form label {
+  font-size: 15px;
+}
+
+#login-form .form-control {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Submit btn */
+#login-form .btn {
+  margin: 13px 0px;
+  background-color: #01a3a4;
+  width: 116px;
+  border-radius: 20px;
+  height: 42px;
+}
+
+#login-form .btn:hover {
+  background-color: #048383;
+}
+
+.submit-button a {
+  margin: 20px;
+  text-decoration: none;
+  color: #01a3a4;
+}
+
+.submit-button a:hover {
+  color: #048383;
+}
+
+input[type="checkbox"] {
+  margin: 20px 10px 20px;
+  width: auto;
+}
+
+.remember-me {
+  margin-top: 14px;
+}
+
+
+/*----------x------- Login page ----------x-------*/
+
+
+/* For small screen> Do not show the cover on small screen */
+@media (max-width:768px) {
+  .my-display {
+    display: none;
+  }
+
+  /* Login title */
+  .container .loginForm {
+    border: 1px solid #ddd;
+    margin: 40px 0;
+    box-shadow: 5px 10px 10px 10px #ddd;
+  }
+
+  #login-form .login-title {
+    padding-top: 16px;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+
+  /* logo padding */
+  .branding{
+    text-align: center;
+  }
+  .branding .img-fluid {
+    padding: 0;
+    width: 18%;
+  }
+
+  .branding span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #login-form .btn {
+    margin: 23px 0px;
+    width: 88px;
+    height: 40px;
+  }
+  .submit-button a {
+    margin-top: 30px;
+  }
+}
